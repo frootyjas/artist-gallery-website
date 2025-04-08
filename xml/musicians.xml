@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musicians>
+    <musician>
+        <image>images/jose.jpg</image>
+        <name>Jose Mari Chan</name>
+        <description>Iconic Filipino singer-songwriter known for his Christmas songs and love ballads.</description>
+        <genre>Pop, Ballad</genre>
+    </musician>
+    <musician>
+        <image>images/v.jpg</image>
+        <name>Gary V</name>
+        <description>Filipino musician, known for his energetic performances and hit songs in pop and gospel music.</description>
+        <genre>Pop, Gospel</genre>
+    </musician>
+    <musician>
+        <image>images/lea.jpg</image>
+        <name>Lea Salonga</name>
+        <description>Renowned Filipino singer and actress, famous for her roles in musical theatre and as a Disney Princess voice actress.</description>
+        <genre>Broadway, Pop</genre>
+    </musician>
+    <musician>
+        <image>images/reg.jpg</image>
+        <name>Regine Velasquez</name>
+        <description>Prominent Filipino singer and actress, known as Asia's Songbird for her powerful voice and wide vocal range.</description>
+        <genre>Pop, Ballad</genre>
+    </musician>
+    <musician>
+        <image>images/sarah.jpg</image>
+        <name>Sarah Geronimo</name>
+        <description>Popular Filipino singer and actress, acclaimed for her versatility and numerous hit songs.</description>
+        <genre>Pop, Dance</genre>
+    </musician>
+    <musician>
+        <image>images/sharon.jpg</image>
+        <name>Sharon Cuneta</name>
+        <description>Filipino singer, actress, and TV host, known as the Megastar for her successful career in music and film.</description>
+        <genre>Pop, OPM</genre>
+    </musician>
+</musicians>

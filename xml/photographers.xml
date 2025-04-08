@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<photographers>
+    <photographer>
+        <image>images/xyza.jpg</image>
+        <name>Xyza Cruz Bacani</name>
+        <description>Filipina street and documentary photographer capturing migrant workers' lives in black and white.</description>
+        <genre>Street and Documentary Photography</genre>
+    </photographer>
+    <photographer>
+        <image>images/mario.jpg</image>
+        <name>Mario Cardenas</name>
+        <description>Filipino photographer known for documentary photography capturing social issues and cultural events.</description>
+        <genre>Documentary Photography</genre>
+    </photographer>
+    <photographer>
+        <image>images/alex.jpg</image>
+        <name>Lex Callueng</name>
+        <description>Filipino fashion and portrait photographer recognized for his creative and emotive photography.</description>
+        <genre>Fashion and Portrait Photography</genre>
+    </photographer>
+</photographers>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <image>images/aq1.jpg</image>
+        <name>Product 1</name>
+        <price>PHP 218,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq2.jpg</image>
+        <name>Product 2</name>
+        <price>PHP 192,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq3.jpg</image>
+        <name>Product 3</name>
+        <price>PHP 254,000</price>
+        <availability>Bidding</availability>
+    </product>
+    <product>
+        <image>images/aq4.jpg</image>
+        <name>Product 4</name>
+        <price>PHP 176,000</price>
+        <availability>Bidding</availability>
+    </product>
+    <product>
+        <image>images/aq5.png</image>
+        <name>Product 5</name>
+        <price>PHP 287,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq6.jpg</image>
+        <name>Product 6</name>
+        <price>PHP 125,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq7.jpg</image>
+        <name>Product 7</name>
+        <price>PHP 299,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq8.jpg</image>
+        <name>Product 8</name>
+        <price>PHP 142,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+    <product>
+        <image>images/aq9.jpg</image>
+        <name>Product 9</name>
+        <price>PHP 215,000</price>
+        <availability>Bidding</availability>
+    </product>
+    <product>
+        <image>images/aq10.jpg</image>
+        <name>Product 10</name>
+        <price>PHP 180,000</price>
+        <availability>Bidding</availability>
+    </product>
+    <product>
+        <image>images/aq11.jpg</image>
+        <name>Product 11</name>
+        <price>PHP 198,000</price>
+        <availability>Bidding</availability>
+    </product>
+    <product>
+        <image>images/aq12.jpg</image>
+        <name>Product 12</name>
+        <price>PHP 235,000</price>
+        <availability>Limited Stock</availability>
+    </product>
+</products>
