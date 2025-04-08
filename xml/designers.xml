@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designers>
+    <designer>
+        <image>images/kenneth.jpeg</image>
+        <name>Kenneth Cobonpue</name>
+        <description>Internationally acclaimed Filipino industrial designer known for his unique, organic designs using natural materials.</description>
+        <genre>Furniture</genre>
+    </designer>
+    <designer>
+        <image>images/monique.webp</image>
+        <name>Monique Lhuillier</name>
+        <description>World-renowned Filipino fashion designer famous for her bridal and ready-to-wear collections.</description>
+        <genre>Fashion</genre>
+    </designer>
+</designers>

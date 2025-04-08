@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artists>
+    <artist>
+        <image>images/Marina.jpg</image>
+        <name>Marina Cruz</name>
+        <description>Hyperrealistic paintings inspired by domestic spaces and everyday objects. Themes include memory, identity, and time.</description>
+        <genre>Hyperrealism</genre>
+    </artist>
+    <artist>
+        <image>images/Ronald-Caringal.jpg</image>
+        <name>Ronald Caringal</name>
+        <description>Blend of abstraction and realism exploring human experiences and spirituality through form, color, and texture.</description>
+        <genre>Abstract Realism</genre>
+    </artist>
+    <artist>
+        <image>images/Mark-Salvatus.jpg</image>
+        <name>Mark Salvatus</name>
+        <description>Exploration of urban dynamics, cultural identities, and social issues through installations and multimedia art.</description>
+        <genre>Multimedia Art</genre>
+    </artist>
+    <artist>
+        <image>images/lou.jpg</image>
+        <name>Lou Lim</name>
+        <description>Sculptures and installations examining the relationship between nature, technology, and environmental sustainability.</description>
+        <genre>Sculpture and Installation Art</genre>
+    </artist>
+    <artist>
+        <image>images/nikki.webp</image>
+        <name>Nikki Luna</name>
+        <description>Multimedia works addressing gender issues and empowerment, advocating for social change and dialogue.</description>
+        <genre>Multimedia Art</genre>
+    </artist>
+</artists>
