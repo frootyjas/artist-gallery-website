@@ -37,8 +37,7 @@ VISIONARYHUB is a cutting-edge platform designed for creative professionals — 
 ---
 
 ## 🖼️ Screenshots
-
-![1](https://github.com/user-attachments/assets/7ee73374-ce82-42bb-9a41-057afb2b35ec)
-![3](https://github.com/user-attachments/assets/d753ba66-40ab-4660-8799-2faf3be2b13b)
-![5](https://github.com/user-attachments/assets/5ac45d4b-3435-4727-846c-abf162ab2687)
+![3](https://github.com/user-attachments/assets/da91dea2-cee7-45d4-9cd5-38e54aa19862)
+![5](https://github.com/user-attachments/assets/018c6363-c135-4329-8676-4d086307ab0f)
+![1](https://github.com/user-attachments/assets/5a84052d-181c-4a79-8dd0-8f8e6353defc)
 
