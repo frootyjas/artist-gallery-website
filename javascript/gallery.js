@@ -1,5 +1,5 @@
 // Fetch navbar.html content and insert it into the navbarContainer div
-fetch('navbar.php')
+fetch('navbar.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('navbarContainer').innerHTML = data;
@@ -81,7 +81,7 @@ async function loadGallery() {
 loadGallery();
 
 // Fetch footer.html content and insert it into the footerContainer div
-fetch('footer.php')
+fetch('footer.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('footerContainer').innerHTML = data;
