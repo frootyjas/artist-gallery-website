@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        .navbar a, .dropdown .dropbtn {
+            font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;    
+            color: #000;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            position: relative;
+            display: flex;
+            align-items: center;
+            font-size: 16px; 
+        }
+
+        .navbar a:hover, .dropdown .dropbtn:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .active {
+            background-color: transparent;
+            color: #000;
+            border-bottom: 2px solid #000;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 10px;
+            position: relative;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown .dropbtn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown .dropbtn i {
+            margin-left: 5px; 
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            min-width: 170px;
+            right: 0;
+            top: 50px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s ease;
+            text-align: left;
+            font-size: 16px; 
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown-content a i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo-black.png" alt="Logo" id="navbar-logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="product.html">Products</a>
+        <!--<div class="dropdown">
+                <button class="dropbtn">More <i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="#change-theme" id="theme-toggle"><i class="fas fa-paint-brush"></i> Change Home Theme</a>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var currentPath = window.location.pathname.split('/').pop();
+            var links = document.querySelectorAll('.nav-links a');
+            links.forEach(function(link) {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+
+            var themeToggle = document.getElementById('theme-toggle');
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                document.querySelector('.navbar').classList.toggle('dark-theme');
+                document.querySelector('footer').classList.toggle('dark-theme');
+                
+                var navbarLogo = document.getElementById('navbar-logo');
+                if (document.body.classList.contains('dark-theme')) {
+                    navbarLogo.src = 'images/logo-white.png';
+                } else {
+                    navbarLogo.src = 'images/logo-black.png';
+                }
+
+                var dropdownContentLinks = document.querySelectorAll('.dropdown-content a');
+                dropdownContentLinks.forEach(function(link) {
+                    if (document.body.classList.contains('dark-theme')) {
+                        link.style.color = '#000';
+                    } else {
+                        link.style.color = '#333';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
